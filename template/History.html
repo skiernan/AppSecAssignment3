@@ -42,7 +42,6 @@
       {{ form.username.label(class="form-control-label") }}
       {% for queries %}
       {{ query["uname"]}}
-      {{ query["pword"]}}
       {{ form.userquery_submit() }}
     </div>
     
@@ -51,12 +50,17 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">Name</th>
-      <th scope="col">Password</th>
+      <th scope="col">Login</th>
+      <th scope="col">Logout</th>
     </tr>
   </thead>
   <tbody>
-    { queryResults['/register'] }
+   // { queryResults['/register'] }
     {queryResults.map(function())}
+    {{ entry.logid }}
+    {{ entry.username }}
+    {{ entry.login }}
+    {{ entry.logout }}
   </tbody>
   </table>
     
