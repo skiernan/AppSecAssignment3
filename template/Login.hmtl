@@ -50,7 +50,7 @@
     <input type="text" id="pword" class="fadeIn third" name="login" placeholder="password">
     //<input type="text" id="2fa" class="fadeIn third" name="login" placeholder="two-factor">
 	<input type="submit" class="fadeIn fourth" value="Log In">
-<>/form
+</form>
     </div>
   </div>
 </div>
