@@ -7,7 +7,7 @@ Brlapi==0.6.6
 certifi==2019.11.28
 chardet==3.0.4
 Click==7.0
-cryptography==2.8
+cryptography==3.2
 cupshelpers==1.0
 defer==1.0.6
 distro-info===0.18ubuntu0.18.04.1
